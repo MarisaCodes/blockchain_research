@@ -1,0 +1,26 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.purchase-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: fit-content;
+  padding-top: 10px;
+}
+.purchase-form button {
+  width: fit-content;
+}
